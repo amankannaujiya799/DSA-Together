@@ -1,10 +1,15 @@
-public class Array {
-    
-    public static void main(String[] args) {
-        int [] arr  = {10,2,0,3,0,1,0};
-         int num  = arr.length;
-         System.out.println(num);
-
+Class Array {
+    public static void main(String args[]) 
+    {
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
+        list.add(6);
+        list.add(7);
+        System.out.println(list);
         
     }
 }
